@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-api-server",
+  "version": "1.0.0",
+  "description": "Servidor Node.js para integração WhatsApp com Spring Boot",
+  "main": "whatsapp-api-server.js",
+  "scripts": {
+    "start": "node whatsapp-api-server.js",
+    "dev": "nodemon whatsapp-api-server.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "express": "^4.18.2",
+    "qrcode": "^1.5.3",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "spring-boot",
+    "nodejs",
+    "blue-gestao"
+  ],
+  "author": "Blue Gestão",
+  "license": "MIT"
+}
